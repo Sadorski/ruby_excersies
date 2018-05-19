@@ -1,0 +1,15 @@
+has_many :comments, as: 
+Comment.new - confirming table comd is being made
+Comment.create(com: Message.first)
+Comment.create(com: Post.first)
+Comment.create(com: User.first)
+Comment.create(com: Blog.first)
+Post.first.comments
+User.first.comments
+Blog.first.comments
+Message.first.comments
+a = Comment.first
+a.com_type = POST 
+a.save
+a.delete
+a.save
